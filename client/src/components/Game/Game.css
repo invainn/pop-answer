@@ -1,0 +1,32 @@
+.game-container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.game-users {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-users-width {
+    width: 50vw !important;
+    max-width: 356px;
+}
+
+.game-correctness {
+    height: 10px;
+}
+
+.game-correctness,
+.game-question,
+.game-answer {
+    text-align: center;
+}
+
+.game-users,
+.game-question,
+.game-answer {
+    margin-bottom: 5vh;
+}

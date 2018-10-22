@@ -1,0 +1,15 @@
+{
+  "name": "pop-answer-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.4",
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+}
